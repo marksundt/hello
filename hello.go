@@ -1,14 +1,7 @@
 package main
 
-import (
-	"github.com/marksundt/samplepkg/samplepkg"
-	"github.com/marksundt/samplepkg/subpkg"
-)
+import "fmt"
 
 func main() {
-	sample := samplepkg.New("Test Sample Package")
-	sample.Print()
-
-	sub := subpkg.New("Test Sub Package")
-	sub.Print()
+      fmt.Println("Hello World")
 }
